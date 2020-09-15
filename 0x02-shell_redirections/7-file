@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 3 iacta
+sed -n 2 iacta
