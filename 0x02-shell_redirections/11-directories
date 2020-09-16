@@ -1,2 +1,2 @@
 #/bin/bash
-find 
+find . -name "*" -type d  ! -path "."^C
