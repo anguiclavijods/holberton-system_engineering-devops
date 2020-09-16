@@ -1,4 +1,4 @@
-this repository work to practice shell scripting
+#0x03-shell_variables_expansions
 
-#0. Where am I? 
-show current directory.
+
+shell learning in three time
