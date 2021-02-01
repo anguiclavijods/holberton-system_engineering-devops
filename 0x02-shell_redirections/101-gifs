@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n+2 | sort | cut -f 1 | uniq -c | sort -nr | head -n+11 | cut -d ' ' -f 6
+find . -type f -name '*.gif' -printf '%f\n' | LC_ALL=C sort -f | rev | cut --delimiter=. --field=2- | rev
