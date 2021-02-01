@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -name "*.gif" -exec ls -1Sv {} +
+tail -n+2 | sort | cut -f 1 | uniq -c | sort -nr | head -n+11 | cut -d ' ' -f 6
