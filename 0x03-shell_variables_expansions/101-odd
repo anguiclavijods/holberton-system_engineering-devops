@@ -1,2 +1,2 @@
 #!/bin/bash
-echo /n input head
+ls -1 | paste -- | cut -f1
