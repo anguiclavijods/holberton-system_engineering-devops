@@ -1,2 +1,2 @@
 #!/bin/bash
-printf /n input head
+echo /n input head
