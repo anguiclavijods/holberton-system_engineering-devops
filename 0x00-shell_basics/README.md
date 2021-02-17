@@ -1,4 +1,4 @@
-#0x00. Shell, basics
+# 0x00. Shell, basics
 
 0. Where am I?
 1. What’s in there?
