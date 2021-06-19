@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+i_num=(1 2 3 4 5 6 7 8 9 10)
+for i_num in ${i_num[*]}
+do
+echo "Holberton School"
+done
+#The script verify what iterator
+#if is less than number 10, while is true
+#print the message
