@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+iter=0
+until [ $iter -gt 10 ]
+do
+    echo "Holberton School"
+    ((iter++))
+done
