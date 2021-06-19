@@ -3,8 +3,8 @@
 #less than 10 print message
 #the message for cuantity of iterations
 iter=1
-while [ $iter -ne 10 ]
+while [ $iter -le 10 ]
 do
-echo "Holberton School"
-iter=$((iter + 1))
+    echo "Holberton School"
+    iter=$((iter + 1))
 done
