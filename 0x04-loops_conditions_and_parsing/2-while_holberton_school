@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#validate that iter if is less than 10 print message
+#validate that iter if is 
+#less than 10 print message
 iter=1
 while [ $iter -ne 10 ]
 do
