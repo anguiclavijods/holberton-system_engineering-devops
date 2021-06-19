@@ -5,7 +5,7 @@ while [ $iter -le 8 ]
 do
     echo "Holberton School"
     iter=$((iter + 1))
-    if [ $iter -ge 9 ];
+    if [ $iter -eq 9 ];
         then
         echo "Hi"
     fi
