@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#print message, validate loop wule, if
+#print message, validate loop while, if
 iter=1
 while [ $iter -le 10 ]
 do
