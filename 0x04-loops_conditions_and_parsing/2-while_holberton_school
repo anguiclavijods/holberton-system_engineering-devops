@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-#validate that iter if is 
+#validate that iter if is
 #less than 10 print message
+#the message for cuantity of iterations
 iter=1
 while [ $iter -ne 10 ]
 do
