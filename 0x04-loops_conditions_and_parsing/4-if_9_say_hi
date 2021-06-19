@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 #print message, validate loop while, if
-iter=1
+iter=2
 while [ $iter -le 10 ]
 do
     echo "Holberton School"
     iter=$((iter + 1))
-    if [ $iter -ge 11 ]; then
+    if [ $iter -ge 11 ];
+        then
         echo "Hi"
     fi
 done
