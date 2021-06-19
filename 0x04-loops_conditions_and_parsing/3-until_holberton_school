@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #print message, validate loop  until
 iter=0
-until [ $iter -gt 10 ]
+until [ $iter -gt 9 ]
 do
     echo "Holberton School"
     ((iter++))
