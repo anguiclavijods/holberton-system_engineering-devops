@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #print message, validate loop while, if
-iter=0
-while [ $iter -le 8 ]
+iter=1
+while [ $iter -le 9 ]
 do
     echo "Holberton School"
     iter=$((iter + 1))
