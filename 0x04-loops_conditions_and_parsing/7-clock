@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#print message, validate loop while, while anidate
+iter_hour=0
+while [ $iter_hour -le 12 ]
+do
+    echo "Hour: $iter_hour"
+    iter_hour=$((iter_hour+1))
+    iter=1
+    while [ $iter -le 59 ]
+    do
+        echo $iter
+        iter=$((iter+1))
+    done
+done
