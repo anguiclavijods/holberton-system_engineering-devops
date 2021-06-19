@@ -5,14 +5,15 @@ while [ $iter -le 20 ]
 do
     echo $iter
     iter=$((iter + 1))
-    if [ $iter -eq 5 ];
-        then
+    case $iter in
+    [5]*)
         echo "bad luck from China"
-    elif [ $iter -eq 10  ];
-        then
+        ;;
+    10*)
         echo "bad luck from Japan"
-    elif [ $iter -eq 18  ];
-        then
+        ;;
+    18*)
         echo "bad luck from Italy"
-    fi
+        ;;
+    esac
 done
