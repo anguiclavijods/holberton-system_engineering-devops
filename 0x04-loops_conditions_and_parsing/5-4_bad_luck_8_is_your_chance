@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#print message, validate loop while, if, elif, else
+iter=1
+while [ $iter -le 8 ]
+do
+    echo "Holberton School"
+    iter=$((iter + 1))
+    if [ $iter -eq 4 ];
+        then
+        echo "bad luck"
+    elif [ $iter -eq 7  ];
+        then
+        echo "good luck"
+    fi
+done
