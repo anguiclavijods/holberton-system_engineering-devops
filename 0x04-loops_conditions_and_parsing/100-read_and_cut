@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Bash that displays the credentials
+while IFS=: read -r f1 f6 f7
+do
+    echo "$f1:$f7:$f6"
+done < /etc/passwd
