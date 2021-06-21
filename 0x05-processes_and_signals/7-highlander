@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Infinity loop that display message
+i=0
+while [ $i ]
+do
+    echo "To infinity and beyond"
+    sleep 2
+    echo "I am invincible!!!"
+done
