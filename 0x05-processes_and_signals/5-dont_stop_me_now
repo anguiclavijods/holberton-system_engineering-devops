@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Killed INFINITY LOOP
-kill -s grep ./4-to_infinity_and_beyond
+file=(grep ./4-to_infinity_and_beyond)
+kill -s $file
