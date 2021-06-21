@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Killed INFINITY LOOP
-kill -s pgrep ./4-to_infinity_and_beyond
+file=$(pgrep ./4-to_infinity_and_beyond -f)
+kill "$file"
