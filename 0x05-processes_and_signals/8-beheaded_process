@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Killed process all
 file=$(pgrep ./7-highlander -f)
-killall -f "$file"
+killall -SIGKILL "$file"
