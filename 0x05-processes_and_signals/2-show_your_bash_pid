@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Show list of process
+ps -ef | grep bash
