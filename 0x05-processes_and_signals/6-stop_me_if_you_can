@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Killed process whitout function kill or killall
+file=$(pgrep ./4-to_infinity_and_beyond -f)
+pkill -f "$file"
