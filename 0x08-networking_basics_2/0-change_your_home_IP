@@ -2,4 +2,3 @@
 # configures an Ubuntu server with the below requirements.
 sed -i '1s/^/127.0.0.2 localhost\n/' $tmp_file
 sed -i '1s/^/8.8.8.8 facebook.com\n/' $tmp_file
-
