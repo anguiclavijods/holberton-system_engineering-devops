@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # configures an Ubuntu server with the below requirements.
-sed -i '1s/^/127.0.0.2 localhost\n/'
-sed -i '1s/^/8.8.8.8 facebook.com\n/'
+cp /etc/hosts hoststmp
+sed -i s/127.*$/127.0.0.2\\tlocalhost\\n8.8.8.8\\tfacebook.com/g hoststmp
+cp -f hoststmp /etc/hosts
