@@ -1,17 +1,17 @@
-# 0x09. Web infrastructure design
+# 0x09. Web Infrastructure Design
 
 ![img](https://hybridpanels.s3.amazonaws.com/Globalapp.io/Homepage/Top+Sliders+Images/Network-01.png)
 
 ## Tasks
-### 0. Simple web stack
-A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a LAMP stack.
 
-On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.
+|File|Objectives|
+|--|--|
+|0-simple_web_stack|Design a server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.|
+|1-distributed_web_infrastructure| Design a three server web infrastructure that hosts the website www.foobar.com. |
+|2-secured_and_monitored_web_infrastructure| Design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.| 
+|3-scale_up|Design a web server infrastructure at big scale.|
 
-### 1. Distributed web infrastructure
-On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com.
-
-
-
-### 2. Secured and monitored web infrastructure
-On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored
+## Authors
+* **Natalia Vera:** [GitHub](https://github.com/Naveduran) - [LinkedIn](https://www.linkedin.com/in/naveduran/)
+* **Jerson Pérez:** [Github](https://github.com/jepez90/) - [LinkedIn](https://www.linkedin.com/in/jerson-p%C3%A9rez-010059a4)
+* **Angui Clavijo:** [Github](https://github.com/angie-clavijo-desarrollo) - [LinkedIn](https://www.linkedin.com/in/angui-clavijo-gutierrez-a5b36655/)
