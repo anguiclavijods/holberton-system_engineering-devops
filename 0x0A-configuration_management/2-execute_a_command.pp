@@ -1,5 +1,7 @@
 # Execute a command
 
-exec { 'pkill killmenow':
-  path => '/user/bin',
+exec { 'pkill':
+  command  => '/usr/bin/pkill -f killmenow',
+  onlyif   => 'ps -aux | grep killmenow',
+  provider => 'shell',
 }
