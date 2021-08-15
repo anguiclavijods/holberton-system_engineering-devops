@@ -1,9 +1,9 @@
 # Client configuration file (w/ Puppet)
-file { 'Config Puppet  passwd':
+file { 'config Puppet  passwd':
     path => '~/.ssh/holberton',
     line => 'PasswordAuthentication no',
 }
-file { 'Config Puppet':
+file { 'config Puppet':
     path => '~/.ssh/holberton',
     line => 'IdentityFile ~/.ssh/holberton',
 }
