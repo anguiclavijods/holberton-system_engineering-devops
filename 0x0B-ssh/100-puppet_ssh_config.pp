@@ -6,5 +6,5 @@ file { 'Config Puppet  passwd'
 }
 file { 'Config Puppet'
     path => '~/.ssh/holberton'
-    line => '~/.ssh/holberton'
+    line => 'IdentityFile ~/.ssh/holberton'
 }
