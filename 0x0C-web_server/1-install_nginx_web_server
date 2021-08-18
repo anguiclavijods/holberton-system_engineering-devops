@@ -4,8 +4,9 @@
 #Install in your server
 #listen in the port 80
 #restarting nginx
-sudo apt-get update
-sudo apt-get -y install nginx
-sudo ufw allow 'Nginx HTTP'
-sudo echo 'Holberton School' > /var/www/html/index.html
-sudo service nginx start
+apt-get update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+rm /var/www/html/
+echo 'Holberton School' > /var/www/html/index.html
+service nginx start
