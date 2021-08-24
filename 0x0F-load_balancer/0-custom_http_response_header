@@ -3,7 +3,6 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
-sudo rm /var/www/html/
 echo 'Holberton School' > /var/www/html/index.html
 PATHS="/etc/nginx/sites-available/default"
 sudo sed -i "22i \\\tadd_header X-Served-By $HOSTNAME;" $PATHS
