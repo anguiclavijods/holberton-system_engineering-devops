@@ -8,7 +8,7 @@ config='backend myBackend
     server web-01 34.75.104.239
     server web-02 	35.229.117.230
 
-frontend myFrontend
+frontend 34.75.104.239
         bind :80
         default_backend myBackend'
 
