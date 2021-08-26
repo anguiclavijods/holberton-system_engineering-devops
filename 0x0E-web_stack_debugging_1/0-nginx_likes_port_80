@@ -2,7 +2,6 @@
 # Nginx likes port 80
 sudo apt update
 sudo apt install nginx
-sudo ufw app list
 sudo ufw allow 'Nginx HTTP'
 sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 sudo sed -i "s/ipv6only=on//" /etc/nginx/sites-enabled/default
