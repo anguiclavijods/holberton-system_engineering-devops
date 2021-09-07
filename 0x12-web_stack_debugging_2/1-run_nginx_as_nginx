@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Run nginex as nginx
 sudo pkill "apache2"
-sed -i.bak '2s/^/user nginx;\n/' /etc/nginx/nginx.conf
 sudo chmod u+r /etc/nginx/nginx.conf
+chown -R nginx /etc/nginx/nginx.conf
+sed -i.bak '2s/^/user nginx;\n/' /etc/nginx/nginx.conf
 sed -i 's/80 default/8080 default/' /etc/nginx/sites-enabled/default
 sudo -u nginx service nginx start
