@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Run user as another user
-sudo su "$1" <<'EOF'
-echo "$1"
-EOF
+new_user="$1"
+sudo -u "$new_user" whoami
