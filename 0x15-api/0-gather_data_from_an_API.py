@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Script that gather data from an API"""
+""" Script that gather data from an API,
+    For verify data of empleyes """
 import requests
 import sys
 
