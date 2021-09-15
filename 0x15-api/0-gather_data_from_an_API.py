@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Script that gather data from an API, For verify data of employees """
-import sys
 import requests
+import sys
 
 if __name__ == "__main__":
 
