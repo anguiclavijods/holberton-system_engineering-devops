@@ -25,4 +25,4 @@ if __name__ == "__main__":
     print("Employee {} is done with tasks({}):".format(
         user.get("name", None), str(total_completed) + "/" + str(total_tasks)))
     for user_task in todo_completed:
-        print("\t {}".format(user_task["title"]))
+        print("\t {}".format(user_task.get("title", None)))
