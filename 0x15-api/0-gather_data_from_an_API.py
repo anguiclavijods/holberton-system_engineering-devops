@@ -22,7 +22,7 @@ if __name__ == "__main__":
     todo_completed = response_todo_completed.json()
     total_completed = len(todo_completed)
 
-    print("Employee {} is done with tasks ({}):".format(
+    print("Employee {} is done with tasks({}):".format(
         user.get("name", None), str(total_completed) + "/" + str(total_tasks)))
     for user_task in todo_completed:
         print("\t {}".format(user_task["title"]))
