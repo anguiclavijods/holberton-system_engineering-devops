@@ -23,6 +23,6 @@ if __name__ == "__main__":
     total_completed = len(todo_completed)
 
     print("Employee {} is done with tasks ({}):".format(
-        user["name"], str(total_completed) + "/" + str(total_tasks)))
+        user.get("name", None), str(total_completed) + "/" + str(total_tasks)))
     for user_task in todo_completed:
         print("\t {}".format(user_task["title"]))
