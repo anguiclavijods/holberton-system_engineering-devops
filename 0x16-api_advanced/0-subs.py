@@ -13,6 +13,6 @@ def number_of_subscribers(subreddit):
                                    allow_redirects=False)
 
     if all_info_reddit == 200:
-        return (response.json().get("data").get("subscribers"))
+        return all_info_reddit.json().get("data").get("subscribers")
     else:
         return 0
