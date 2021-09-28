@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" script that verify in the api number of subscriptors of reddit"""
 from urllib import response
 import requests
 
