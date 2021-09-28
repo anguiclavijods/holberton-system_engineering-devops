@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """ script that verify in the api number of subscriptors of reddit"""
-from urllib import response
 import requests
+from urllib import response
 
 
 def number_of_subscribers(subreddit):
-    """ function number of subscribers"""
+    """ function number of subscribers for verify url and data of users"""
     all_info_reddit = requests.get(
                                    "https://www.reddit.com/r/{}/about.json"
                                    .format(subreddit),
