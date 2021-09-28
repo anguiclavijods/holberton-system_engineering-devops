@@ -15,4 +15,4 @@ def number_of_subscribers(subreddit):
     if all_info_reddit == 200:
         return response.json().get("data").get("subscribers")
     else:
-        return (0)
+        return 0
