@@ -12,7 +12,7 @@ def number_of_subscribers(subreddit):
                                    headers={'User-Agent': 'Ana'},
                                    allow_redirects=False)
 
-    if all_info_reddit == 200:
+    if all_info_reddit.status_code == 200:
         return all_info_reddit.json().get("data").get("subscribers")
     else:
         return 0
