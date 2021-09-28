@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-""" script that verify in the api the titles of the first 10
-    hot posts listed for a given subreddit."""
+""" script that verify in the api  recursive function that queries
+    the Reddit API and returns a list
+    containing the titles of all hot articlest."""
 import requests
 from urllib import response
 
